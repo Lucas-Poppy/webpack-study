@@ -1,9 +1,5 @@
 import _ from 'lodash'
-import Tiger from './utilities'
-
-// console.log(utilities.NiJou(19));
-// console.log(NAME_OF_HAM);
-console.log(Tiger.say());
+import './style.css'
 
 function component() {
   const element = document.createElement('div')
@@ -12,4 +8,5 @@ function component() {
   return element;
 }
 
-document.body.appendChild(component())
+document.body.appendChild(component());
+document.body.classList.add('haikei');
